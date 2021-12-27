@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+import bck from './bckbrooklinbridge.jpg'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div className="App">
+        <map name='me-clickable'>
+          <area shape='rect' coords='0,0,60,100' href='www.google.es'/>
+        <img src={bck} className="Img-bck" useMap='#me-clickable'/>
+        </map>
+      </div>
+    </body>
   );
 }
 
