@@ -1,14 +1,11 @@
-import bck from './bckbrooklinbridge.jpg'
 import './App.css';
+
+const public_images = process.env.PUBLIC_URL + '/images'
 
 function App() {
   return (
     <body>
       <div className="App">
-        <map name='me-clickable'>
-          <area shape='rect' coords='0,0,60,100' href='www.google.es'/>
-        <img src={bck} className="Img-bck" useMap='#me-clickable'/>
-        </map>
       </div>
     </body>
   );
