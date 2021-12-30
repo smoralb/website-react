@@ -1,0 +1,32 @@
+.section-container {
+    display: grid;
+    column-gap: 5%;
+    grid-template-columns: auto auto;
+    margin: 0 10%;
+}
+
+.section-info {
+    text-align: center;
+}
+
+.item-title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.item-college {
+    margin: auto auto;
+    font-size: 14px;
+}
+
+.item-date {
+    margin: auto auto;
+    font-size: 14px;
+}
+
+.section-description {
+    grid-column-start: 2;
+    font-size: 14px;
+    text-align: justify;
+}
