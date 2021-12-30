@@ -1,14 +1,11 @@
 import './App.css';
+import SectionHeader from './components/section-header/sectionHeader';
 
-const public_images = process.env.PUBLIC_URL + '/images'
-
-function App() {
-  return (
+// works as a lamba function (inside parenthesis you can pass props)
+const App = () =>
     <body>
-      <div className="App">
-      </div>
+      <div className="App"/>
+      <SectionHeader/>
     </body>
-  );
-}
 
 export default App;

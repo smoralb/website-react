@@ -1,0 +1,44 @@
+.section-header {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.section-title {
+    width: auto;
+    font-family: 'RousseauFont';
+    font-size: 60px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@font-face {
+    font-family: "RousseauFont";
+    src: url('../../../public/fonts/RousseauDeco.ttf') format('truetype');
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-title::before {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-title::after {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        right: 30%;
+        top: 50%;
+    }
+}
