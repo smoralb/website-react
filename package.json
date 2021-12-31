@@ -6,8 +6,12 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "i18next": "^21.6.4",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-http-backend": "^1.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"
   },
@@ -15,8 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "webpack"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -35,15 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "@babel/preset-react": "^7.16.5",
-    "babel-loader": "^8.2.3",
-    "html-webpack-plugin": "^5.5.0",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.7.1"
   }
 }
