@@ -9,13 +9,13 @@ export default function App() {
   return (
     <body>
       <div className="App"/>
-      <SectionHeader/>
-      <SectionItem title = {t("studies_degree_title")} college = {t("studies_degree_college")} 
-      date = {t("studies_degree_date")} description = {t("studies_degree_description")} />
-      <SectionItem title = {t("studies_course_android_title")} college = {t("studies_course_android_college")} 
-      date = {t("studies_course_android_date")} description = {t("studies_course_android_description")} />
-      <SectionItem title = {t("studies_course_web_title")} college = {t("studies_course_web_college")} 
-      date = {t("studies_course_web_date")} description = {t("studies_course_web_description")} />
+      <SectionHeader title = {t("studies.title")}/>
+      <SectionItem title = {t("studies.studies_degree_title")} college = {t("studies.studies_degree_college")} 
+        date = {t("studies.studies_degree_date")} description = {t("studies.studies_degree_description")} />
+      <SectionItem title = {t("studies.studies_course_android_title")} college = {t("studies.studies_course_android_college")} 
+        date = {t("studies.studies_course_android_date")} description = {t("studies.studies_course_android_description")} />
+      <SectionItem title = {t("studies.studies_course_web_title")} college = {t("studies.studies_course_web_college")} 
+        date = {t("studies.studies_course_web_date")} description = {t("studies.studies_course_web_description")} />
     </body>
     )
 }

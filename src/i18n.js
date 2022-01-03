@@ -14,7 +14,6 @@ i18n
   .init({
     detection: DETECTION_OPTIONS,
     fallbackLng: "en",
-    keySeparator: false,
     react: {
       useSuspense: false
     }
