@@ -16,7 +16,8 @@
     },
     "contact": {
         "title": "Contacto",
-        "contact_mail" : "smoralber@gmail.com",
-        "contact_phone" : "+34 656 987 824"
+        "contact_mail": "smoralber@gmail.com",
+        "contact_phone": "+34 656 987 824",
+        "contact_location": "Boston, Massachusetts"
     }
 }

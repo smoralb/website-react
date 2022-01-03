@@ -16,7 +16,8 @@
     },
     "contact": {
         "title": "Contact me",
-        "contact_mail" : "smoralber@gmail.com",
-        "contact_phone" : "+1 (617) 971-6693"
+        "contact_mail": "smoralber@gmail.com",
+        "contact_phone": "+1 (617) 971-6693",
+        "contact_location": "Madrid, Spain"
     }
 }
