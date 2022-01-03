@@ -12,22 +12,22 @@ export default function App () {
       <div className='App' />
       <SectionHeader title={t('studies.title')} />
       <SectionItem
-        title={t('studies.studies_degree_title')}
-        college={t('studies.studies_degree_college')}
-        date={t('studies.studies_degree_date')}
-        description={t('studies.studies_degree_description')}
+        title={t('studies.degree_title')}
+        college={t('studies.degree_college')}
+        date={t('studies.degree_date')}
+        description={t('studies.degree_description')}
       />
       <SectionItem
-        title={t('studies.studies_course_android_title')}
-        college={t('studies.studies_course_android_college')}
-        date={t('studies.studies_course_android_date')}
-        description={t('studies.studies_course_android_description')}
+        title={t('studies.course_android_title')}
+        college={t('studies.course_android_college')}
+        date={t('studies.course_android_date')}
+        description={t('studies.course_android_description')}
       />
       <SectionItem
-        title={t('studies.studies_course_web_title')}
-        college={t('studies.studies_course_web_college')}
-        date={t('studies.studies_course_web_date')}
-        description={t('studies.studies_course_web_description')}
+        title={t('studies.course_web_title')}
+        college={t('studies.course_web_college')}
+        date={t('studies.course_web_date')}
+        description={t('studies.course_web_description')}
       />
 
       <SectionContact
@@ -35,6 +35,7 @@ export default function App () {
         mail={t('contact.mail')}
         location={t('contact.location')}
         phone={t('contact.phone')}
+        image={'images/portrait-mobile.jpeg'}
       />
     </body>
   )

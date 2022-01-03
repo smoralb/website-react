@@ -1,33 +1,52 @@
-.contact-me-container {
-    margin: 50px 0 0 0;
-    padding: 50px 0;
+.container {
+    display: grid;
     background-color: #22303E;
-    color: white;
+    padding: 40px;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 5%; 
+    grid-template-areas: 
+      "image title title title"
+      "image location mail phone"
+      "image location mail phone";
+      font-size: 14px;
 }
 
-#contact-title {
+.title {
+    grid-area: title;
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin: 0 0 30px 0;
+}
+
+.image {
+    grid-area: image;
+}
+
+.location {
+    grid-area: location;
+}
+
+.mail {
+    grid-area: mail;
+}
+
+.phone {
+    grid-area: phone;
 }
 
 @media only screen and (min-width: 1024px) {
-    #portrait-img {
+    .image {
         display: block;
-        height: 350px;
-        width: 350px;
+        height: 500px;
+        width: 500px;
         border-radius: 10%;
-        margin: auto auto;
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    #portrait-img {
+    .image {
         display: none;
-        height: 0px;
-        width: 0px;
-        border-radius: 10%;
-        margin: auto auto;
     }
 }
