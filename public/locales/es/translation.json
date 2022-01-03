@@ -1,14 +1,23 @@
 {
-    "studies_degree_title": "Grado Ingeniería de software",
-    "studies_degree_college": "Universidad Politécnica de Madrid",
-    "studies_degree_date": "2011- 2017",
-    "studies_degree_description": "Capacidad de utilizar un enfoque sistemático, disciplinado y cuantificable para el desarrollo, operación y mantenimiento del software, de establecer y utilizar principios sólidos de ingeniería para obtener software fiable que funcione eficientemente en máquinas reales, así como de estimar los costes de los desarrollos.<br/><br/>Todo ello supone un conocimiento profundo de la programación de ordenadores, la implantación y planificación de sistemas informáticos así como de las fases del ciclo de vida del software, desde una perspectiva práctica y adaptada a las realidades sociales de nuestro país.",
-    "studies_course_android_title": "Desarrollo Aplicaciones Android",
-    "studies_course_android_college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
-    "studies_course_android_date": "200 horas - 2014",
-    "studies_course_android_description": "Curso enfocado para estudiantes interesados en el desarrollo de aplicaciones para dispositivos Android. En este curso se abordan diferentes temas relacionados con el desarrollo de un aplicaión como:<br/><br/>• Identificación de idea para el proyecto<br/>• Creación de un mock up<br/>• Análisis de UX/UI<br/>• Desarrollo (JAVA)<br/>• Publicación de la aplicación en Play store",
-    "studies_course_web_title": "Desarrollo Front-End con HTML5 y CSS3",
-    "studies_course_web_college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
-    "studies_course_web_date": "80 horas - 2016",
-    "studies_course_web_description": "Curso dirigido a desarrolladores/as y diseñadores/as web tanto nuevos como experimentados y ampliar sus habilidades para incluir los próximos estándares web. A través de laboratorios prácticos y ejercicios, se aprendieron los fundamentos de la creación de páginas web con las normas/estándares actuales. El curso se centra en el lenguaje de maquetación de contenidos HTML5 y en las hojas de estilo en cascada proporcionadas por CSS3. Adicionalmente se introducen conceptos básicos de JavaScript y el uso de la biblioteca Bootstrap. Los/as alumnos/as adquirirán, entre otras, destrezas que le permitirán:<br/><br/>• Entender la arquitectura cliente-servidor y las características de los servidores web, considerando las peculiaridades de los clientes asociados. <br/>• Conocer el lenguaje HTML para el desarrollo de páginas Web (en todas sus versiones), incluyendo textos, imágenes y otros contenidos multimedia.<br/>• Dotar a los documentos HTML de las capacidades proporcionadas por el CSS, adaptándose a criterios de usabilidad y accesibilidad. <br/>• Entender cómo integrar el uso del lenguaje JavaScript"
+    "studies": {
+        "title": "Estudios",
+        "degree_title": "Grado Ingeniería de software",
+        "degree_college": "Universidad Politécnica de Madrid",
+        "degree_date": "2011- 2017",
+        "degree_description": "Capacidad de utilizar un enfoque sistemático, disciplinado y cuantificable para el desarrollo, operación y mantenimiento del software, de establecer y utilizar principios sólidos de ingeniería para obtener software fiable que funcione eficientemente en máquinas reales, así como de estimar los costes de los desarrollos.<br/><br/>Todo ello supone un conocimiento profundo de la programación de ordenadores, la implantación y planificación de sistemas informáticos así como de las fases del ciclo de vida del software, desde una perspectiva práctica y adaptada a las realidades sociales de nuestro país.",
+        "course_android_title": "Desarrollo Aplicaciones Android",
+        "course_android_college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
+        "course_android_date": "200 horas - 2014",
+        "course_android_description": "Curso enfocado para estudiantes interesados en el desarrollo de aplicaciones para dispositivos Android. En este curso se abordan diferentes temas relacionados con el desarrollo de un aplicaión como:<br/><br/>• Identificación de idea para el proyecto<br/>• Creación de un mock up<br/>• Análisis de UX/UI<br/>• Desarrollo (JAVA)<br/>• Publicación de la aplicación en Play store",
+        "course_web_title": "Desarrollo Front-End con HTML5 y CSS3",
+        "course_web_college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
+        "course_web_date": "80 horas - 2016",
+        "course_web_description": "Curso dirigido a desarrolladores/as y diseñadores/as web tanto nuevos como experimentados y ampliar sus habilidades para incluir los próximos estándares web. A través de laboratorios prácticos y ejercicios, se aprendieron los fundamentos de la creación de páginas web con las normas/estándares actuales. El curso se centra en el lenguaje de maquetación de contenidos HTML5 y en las hojas de estilo en cascada proporcionadas por CSS3. Adicionalmente se introducen conceptos básicos de JavaScript y el uso de la biblioteca Bootstrap. Los/as alumnos/as adquirirán, entre otras, destrezas que le permitirán:<br/><br/>• Entender la arquitectura cliente-servidor y las características de los servidores web, considerando las peculiaridades de los clientes asociados. <br/>• Conocer el lenguaje HTML para el desarrollo de páginas Web (en todas sus versiones), incluyendo textos, imágenes y otros contenidos multimedia.<br/>• Dotar a los documentos HTML de las capacidades proporcionadas por el CSS, adaptándose a criterios de usabilidad y accesibilidad. <br/>• Entender cómo integrar el uso del lenguaje JavaScript"
+    },
+    "contact": {
+        "title": "Contacto",
+        "mail": "smoralber@gmail.com",
+        "phone": "+34 656 987 824",
+        "location": "Madrid, España"
+    }
 }

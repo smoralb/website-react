@@ -1,8 +1,9 @@
 .section-container {
     display: grid;
     column-gap: 5%;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 20px;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 20px;
+    margin-right: 60px;
 }
 
 .section-info {
@@ -15,12 +16,7 @@
     font-weight: bold;
 }
 
-.item-college {
-    margin: auto auto;
-    font-size: 14px;
-}
-
-.item-date {
+.item-subtitle {
     margin: auto auto;
     font-size: 14px;
 }
