@@ -29,6 +29,22 @@ For easier management of the translations I have installed the library i18next-h
                 /_es
                     /_ translation.json
                 ...
+                
+    4. Access to translations from js files
+
+        import { useTranslation } from 'react-i18next';
+
+        export default function App() {
+            const { t, i18n } = useTranslation();
+
+            return (
+                <body>
+                    <div className="App"/>
+                    <SectionHeader/>
+                    <SectionItem title = {t("studies_degree_title")} college = {t("studies_degree_college")}
+                </body>
+            )
+        }
 
 Nice to read
 
