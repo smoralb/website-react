@@ -11,19 +11,17 @@ For easier management of the translations I have installed the library i18next-h
 
     1. Install the library.
 
-        ```npm install i18next-http-backend```
+        npm install i18next-http-backend
 
     2. Import to the cofing file of i18N.
 
-        ```
         import i18next from 'i18next';
         import Backend from 'i18next-http-backend';
         
         i18next.use(Backend).init(i18nextOptions);
-        ```
 
     3. Create translation files.
-        ```
+
         public
             /_locales
                 /_en
@@ -31,7 +29,6 @@ For easier management of the translations I have installed the library i18next-h
                 /_es
                     /_ translation.json
                 ...
-        ```
 
 Nice to read
 
