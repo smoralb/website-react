@@ -8,19 +8,16 @@ const DETECTION_OPTIONS = {
 };
 
 i18n
-.use(Backend)
-.use(initReactI18next)
-.use(LanguageDetector)
-.init({
-  detection: DETECTION_OPTIONS,
-  fallbackLng: "en",
-  keySeparator: false,
-  interpolation: {
-    escapeValue: false
-  },
-  react: {
-    useSuspense: false
-  }
-});
+  .use(Backend)
+  .use(initReactI18next)
+  .use(LanguageDetector)
+  .init({
+    detection: DETECTION_OPTIONS,
+    fallbackLng: "en",
+    keySeparator: false,
+    react: {
+      useSuspense: false
+    }
+  });
 
 export default i18n;
