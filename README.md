@@ -24,13 +24,13 @@ For easier management of the translations I have installed the library i18next-h
         };
         
         i18n
-        .use(Backend) -> Easier access to transtions
-        .use(initReactI18next) -> Initialize i18next library
-        .use(LanguageDetector) -> Use LanguageDetector to detect user's browser language
+        .use(Backend) -> **Easier access to translations.**
+        .use(initReactI18next) **-> Initialize i18next library.**
+        .use(LanguageDetector) **-> Use LanguageDetector to detect user's browser language.**
         .init({
-            detection: DETECTION_OPTIONS, -> To set setection of the web browser
-            fallbackLng: "en", -> Use english as a default language if it is not possible to detect another one.
-            // keySeparator: false, -> To define the separator that will be used in your translations. If flat JSON, set as false.
+            detection: DETECTION_OPTIONS, **-> To set setection of the web browser**
+            fallbackLng: "en", **-> Use english as a default language if it is not possible to detect another one.**
+            // keySeparator: false, **-> To define the separator that will be used in your translations. If flat JSON, set as false.**
             react: {
                 useSuspense: false -> Lazy load of strings
             }
@@ -39,11 +39,11 @@ For easier management of the translations I have installed the library i18next-h
     3. ##Create translation files.
 
         public
-            /_locales
-                /_en
-                    /_ translation.json
-                /_es
-                    /_ translation.json
+            /locales
+                /en
+                    translation.json
+                /es
+                    translation.json
                 ...
 
     4. ##Access to translations from js files
