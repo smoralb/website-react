@@ -2,6 +2,7 @@ import './App.css'
 import SectionHeader from './components/section-header/sectionHeader'
 import SectionItem from './components/section-item/sectionItem'
 import SectionContact from './components/section-contact/sectionContact'
+import SectionExperience from './components/section-experience/sectionExperience'
 import { useTranslation } from 'react-i18next'
 
 export default function App () {
@@ -37,6 +38,7 @@ export default function App () {
         phone={t('contact.phone')}
         image={'images/portrait-mobile.jpeg'}
       />
+      <SectionExperience/>
     </body>
   )
 }
