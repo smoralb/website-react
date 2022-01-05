@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/website-react/static/css/main.8cae0043.css",
+    "main.js": "/website-react/static/js/main.65f4bd9a.js",
+    "static/js/787.76826462.chunk.js": "/website-react/static/js/787.76826462.chunk.js",
+    "static/media/bckbrooklinbridge.jpg": "/website-react/static/media/bckbrooklinbridge.70ed6cddd1ff9f81edb6.jpg",
+    "static/media/portrait-mobile.jpeg": "/website-react/static/media/portrait-mobile.04f4c37d177a332c52a4.jpeg",
+    "static/media/RousseauDeco.ttf": "/website-react/static/media/RousseauDeco.3568e481bbe6e9af6ddc.ttf",
+    "index.html": "/website-react/index.html",
+    "static/media/getFetch.cjs": "/website-react/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.8cae0043.css.map": "/website-react/static/css/main.8cae0043.css.map",
+    "main.65f4bd9a.js.map": "/website-react/static/js/main.65f4bd9a.js.map",
+    "787.76826462.chunk.js.map": "/website-react/static/js/787.76826462.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cae0043.css",
+    "static/js/main.65f4bd9a.js"
+  ]
+}
