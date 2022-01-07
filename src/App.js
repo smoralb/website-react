@@ -4,15 +4,19 @@ import SectionItem from './components/section-item/sectionItem'
 import SectionContact from './components/section-contact/sectionContact'
 import SectionExperience from './components/section-experience/sectionExperience'
 import SectionFooter from './components/section-footer/sectionFooter'
+import SectionPageHeader from './components/section-page-header/sectionPageHeader'
 import { useTranslation } from 'react-i18next'
 
 export default function App () {
   const { t, i18n } = useTranslation()
 
   return (
-    <body>
-      <div className='App' />
+    <div className='App'>
+
+      <SectionPageHeader/>
+
       <SectionHeader title={t('studies.title')} />
+
       <SectionItem
         title={t('studies.degree_title')}
         college={t('studies.degree_college')}
@@ -39,8 +43,9 @@ export default function App () {
         phone={t('contact.phone')}
         image={'images/portrait-mobile.jpeg'}
       />
+
       <SectionHeader title={t('work-experience.title')} />
-      
+
       <SectionExperience
         position={'left'}
         role={t('work-experience.ok_role')}
@@ -81,7 +86,7 @@ export default function App () {
         description={t('work-experience.bb_description')}
       ></SectionExperience>
 
-      <SectionFooter/>
-    </body>
+      <SectionFooter />
+    </div>
   )
 }
