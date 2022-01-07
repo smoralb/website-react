@@ -7,7 +7,7 @@
 .footer-text {
   color: white;
   position: relative;
-  margin: 30px 0 0 0;
+  margin: 10px;
   font-size: 14px;
   text-align: center;
 }
@@ -18,7 +18,7 @@
 }
 
 .social-media {
-  margin: 10px 10px;
-  width: 30px;
-  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
