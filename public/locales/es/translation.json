@@ -19,5 +19,28 @@
         "mail": "smoralber@gmail.com",
         "phone": "+34 656 987 824",
         "location": "Madrid, España"
+    },
+    "work-experience": {
+        "title": "Experiencia",
+        "ok_role": "Desarrollador Android",
+        "ok_company": "Openbank",
+        "ok_date": "Noviembre 2019 - Actualidad",
+        "ok_description": "Desarrollo de la aplicación de Openbank para clientes",
+        "ipd_role": "Desarrollador Android",
+        "ipd_company": "IphoneDroid",
+        "ipd_date": "Noviembre 2018 - Noviembre 2019",
+        "ipd_description": "Desarrollo de aplicaciones Android en Kotlin, basándose en una arquitectura MVP y Clean Architecture. Uso librerías como: •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, entre otras. •  Implementación de librería de Analíticas de Adobe. •  Metodología de trabajo agile basado en kanban y SCRUM. •  Uso de herramientas de gestión como Jira y de documentación como Confluence. • Herramientas de control versiones como HockeyApp y Fastlane.",
+        "acc_role": "Desarrollador de Software",
+        "acc_company": "Accenture",
+        "acc_date": "Junio 2018 - Noviembre 2018",
+        "acc_description": "Desarrollo de aplicación web para gestión interna del cliente utilizando tecnologías como: •  Angular 6, Bootstrap 4 y Typescript. • Metodología de trabajo basada en SCRUM.",
+        "tm_role": "Desarrollador Android",
+        "tm_company": "talentoMOBILE",
+        "tm_date": "Marzo 2018 - Junio 2018",
+        "tm_description": "Desarrollador de aplicaciones nativas Android para empresas multinacionales del sector bancario y aseguradoras siguiendo el patrón arquitectónico MVP y DataBinding. Uso de librerías nativas de Android como: • ConstraintLayout, RecyclerView y Volley, entre otras. Uso de librerías de terceros como: • Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. Conexión con APIS como: • Google Maps API",
+        "bb_role": "Desarrollador Android",
+        "bb_company": "Babel SI",
+        "bb_date": "Marzo 2017 - Marzo 2018",
+        "bb_description": "Desarrollador aplicaciones Android siguiendo los principios del patrón arquitectónico Clean Architecture.Uso de librerías nativas de Android como: • ConstraintLayout y RecyclerView</span><br/>Librerías de terceros como pueden ser: • Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife y okhttp Conexión con APIS como: • Google Maps API y Firebase."
     }
 }

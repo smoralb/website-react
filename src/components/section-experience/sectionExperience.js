@@ -7,46 +7,22 @@ import TimelineContent from '@mui/lab/TimelineContent'
 import TimelineDot from '@mui/lab/TimelineDot'
 import Typography from '@mui/material/Typography'
 
-export default function SectionExperience () {
+export default function SectionExperience (props) {
   return (
-    <Timeline position='alternate'>
+    <Timeline position={props.position}>
       <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Eat</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
+      <TimelineSeparator>
+          <TimelineDot/>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant='h6' component='span'>
-            Desarrollador Android
+            {props.role}
           </Typography>
-          <Typography>
-          Openbank
-          </Typography>
-          <Typography>
-          Noviembre 2019 - Actualidad
-          </Typography>
-          <Typography>Desarrollo de la aplicación de Openbank para clientes</Typography>
+          <Typography>{props.company}</Typography>
+          <Typography>{props.date}</Typography>
+          <Typography>{props.description}</Typography>
         </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent>Sleep</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent>Repeat</TimelineContent>
       </TimelineItem>
     </Timeline>
   )
