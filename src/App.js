@@ -3,6 +3,7 @@ import SectionHeader from './components/section-header/sectionHeader'
 import SectionItem from './components/section-item/sectionItem'
 import SectionContact from './components/section-contact/sectionContact'
 import SectionExperience from './components/section-experience/sectionExperience'
+import SectionFooter from './components/section-footer/sectionFooter'
 import { useTranslation } from 'react-i18next'
 
 export default function App () {
@@ -38,6 +39,8 @@ export default function App () {
         phone={t('contact.phone')}
         image={'images/portrait-mobile.jpeg'}
       />
+      <SectionHeader title={t('work-experience.title')} />
+      
       <SectionExperience
         position={'left'}
         role={t('work-experience.ok_role')}
@@ -54,7 +57,7 @@ export default function App () {
         description={t('work-experience.ipd_description')}
       ></SectionExperience>
 
-<SectionExperience
+      <SectionExperience
         position={'left'}
         role={t('work-experience.acc_role')}
         company={t('work-experience.acc_company')}
@@ -69,7 +72,7 @@ export default function App () {
         date={t('work-experience.tm_date')}
         description={t('work-experience.tm_description')}
       ></SectionExperience>
-      
+
       <SectionExperience
         position={'left'}
         role={t('work-experience.bb_role')}
@@ -77,6 +80,8 @@ export default function App () {
         date={t('work-experience.bb_date')}
         description={t('work-experience.bb_description')}
       ></SectionExperience>
+
+      <SectionFooter/>
     </body>
   )
 }
