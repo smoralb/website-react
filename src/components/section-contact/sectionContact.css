@@ -1,5 +1,6 @@
 .container {
     display: grid;
+    color: white;
     background-color: #22303E;
     padding: 40px;
     margin-top: 40px;

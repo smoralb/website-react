@@ -2,20 +2,20 @@ import react from 'react'
 import './sectionContact.css'
 
 const SectionContact = props => (
-  <div class='container'>
-    <div class='image'>
+  <div className='container'>
+    <div className='image'>
       <img className='image' src={props.image} />
     </div>
-    <div class='title'>
+    <div className='title'>
       <h1 className='title'>{props.title}</h1>
     </div>
-    <div class='location'>
+    <div className='location'>
       <h1 className='location'>{props.location}</h1>
     </div>
-    <div class='mail'>
+    <div className='mail'>
       <h1 className='mail'>{props.mail}</h1>
     </div>
-    <div class='phone'>
+    <div className='phone'>
       <h1 className='phone'>{props.phone}</h1>
     </div>
   </div>
