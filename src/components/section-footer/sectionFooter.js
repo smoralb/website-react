@@ -4,7 +4,7 @@ import './sectionFooter.css'
 const SectionFooter = () => (
   <footer className='footer'>
     <div className='social-container'>
-      <a href='https://twitter.com/smoralber'>
+      <a href='https://medium.com/@smoralber'>
         <img className='social-media' src='images/medium-logo.svg' />
       </a>
       <a href='https://www.linkedin.com/in/sergiomoralbermudez/'>
