@@ -1,19 +1,26 @@
 {
-    "studies": {
-        "title": "Studies",
-        "degree_title": "Software engineering bachelor's degree",
-        "degree_college": "Technical University of Madrid",
-        "degree_date": "2011- 2017",
-        "degree_description": "Ability to use a systematic, disciplined and quantifiable approach to software development, operation, and maintenance, to establish and use SOLID engineering principles to obtain reliable software that works efficiently on real machines, as well as to estimate the costs of developments. All this assumes a thorough knowledge of computer programming, implementation, and planning of computer systems as well as the phases of the software life cycle, from a practical perspective and adapted to the social realities of our country.",
-        "course_android_title": "Android development",
-        "course_android_college": "Technical University of Madrid - Samsung Tech Institute",
-        "course_android_date": "200 hours - 2014",
-        "course_android_description": "Course focused for students interested in the development of applications for Android devices. This course addresses different topics related to the development of an application such as: Identification of the idea for the project Creation of a mock-up Analysis of UX/UI - Development (JAVA) Publication of the application in Play store",
-        "course_web_title": "Front-End development with HTML5 & CSS3",
-        "course_web_college": "Technical University of Madrid - Samsung Tech Institute",
-        "course_web_date": "80 hours - 2016",
-        "course_web_description": "A course aimed at both new and experienced web developers and web designers to expand their skills to include upcoming web standards. Through hands-on labs and exercises, the fundamentals of creating web pages with current standards were learned. The course focuses on the HTML5 content layout language and cascading style sheets provided by CSS3. In addition, basic JavaScript concepts and the use of the Bootstrap library are introduced. Students will acquire, among others, skills that will allow them to: Understand the client-server architecture and the characteristics of web servers, considering the peculiarities of the associated clients. Know the HTML language to develop web pages (in all its versions), including text, images, and other multimedia content. To provide HTML documents with the capabilities provided by CSS, adapting to usability and accessibility criteria. Understand how to integrate the use of JavaScript"
-    },
+    "studies_title": "Studies",
+    "studies": [
+        {
+            "title": "Software engineering bachelor's degree",
+            "college": "Technical University of Madrid",
+            "date": "2011- 2017",
+            "description": "Ability to use a systematic, disciplined and quantifiable approach to software development, operation, and maintenance, to establish and use SOLID engineering principles to obtain reliable software that works efficiently on real machines, as well as to estimate the costs of developments. All this assumes a thorough knowledge of computer programming, implementation, and planning of computer systems as well as the phases of the software life cycle, from a practical perspective and adapted to the social realities of our country."    
+        },
+        {
+            "title": "Android development",
+            "college": "Technical University of Madrid - Samsung Tech Institute",
+            "date": "200 hours - 2014",
+            "description": "Course focused for students interested in the development of applications for Android devices. This course addresses different topics related to the development of an application such as: Identification of the idea for the project Creation of a mock-up Analysis of UX/UI - Development (JAVA) Publication of the application in Play store"     
+        },
+        {
+            "title": "Front-End development with HTML5 & CSS3",
+            "college": "Technical University of Madrid - Samsung Tech Institute",
+            "date": "80 hours - 2016",
+            "description": "A course aimed at both new and experienced web developers and web designers to expand their skills to include upcoming web standards. Through hands-on labs and exercises, the fundamentals of creating web pages with current standards were learned. The course focuses on the HTML5 content layout language and cascading style sheets provided by CSS3. In addition, basic JavaScript concepts and the use of the Bootstrap library are introduced. Students will acquire, among others, skills that will allow them to: Understand the client-server architecture and the characteristics of web servers, considering the peculiarities of the associated clients. Know the HTML language to develop web pages (in all its versions), including text, images, and other multimedia content. To provide HTML documents with the capabilities provided by CSS, adapting to usability and accessibility criteria. Understand how to integrate the use of JavaScript"
+    
+        }
+    ],
     "contact": {
         "title": "Contact me",
         "mail": "smoralber@gmail.com",

@@ -6,35 +6,27 @@ import SectionExperience from './components/section-experience/sectionExperience
 import SectionFooter from './components/section-footer/sectionFooter'
 import SectionPageHeader from './components/section-page-header/sectionPageHeader'
 import { useTranslation } from 'react-i18next'
+import _ from 'lodash';
 
 export default function App () {
   const { t, i18n } = useTranslation()
 
   return (
     <div className='App'>
+      <SectionPageHeader />
 
-      <SectionPageHeader/>
+      <SectionHeader title={t('studies_title')} />
 
-      <SectionHeader title={t('studies.title')} />
-
-      <SectionItem
-        title={t('studies.degree_title')}
-        college={t('studies.degree_college')}
-        date={t('studies.degree_date')}
-        description={t('studies.degree_description')}
-      />
-      <SectionItem
-        title={t('studies.course_android_title')}
-        college={t('studies.course_android_college')}
-        date={t('studies.course_android_date')}
-        description={t('studies.course_android_description')}
-      />
-      <SectionItem
-        title={t('studies.course_web_title')}
-        college={t('studies.course_web_college')}
-        date={t('studies.course_web_date')}
-        description={t('studies.course_web_description')}
-      />
+      {_.map(t('studies', { returnObjects: true }), item => {
+        return (
+          <SectionItem
+            title={item.title}
+            college={item.college}
+            date={item.date}
+            description={item.description}
+          />
+        )
+      })}
 
       <SectionContact
         title={t('contact.title')}
