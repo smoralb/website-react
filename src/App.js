@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next'
 import _ from 'lodash'
 
 export default function App () {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <div className='App'>
@@ -29,47 +29,11 @@ export default function App () {
         image={'images/portrait-mobile.jpeg'}
       />
 
-      <SectionHeader title={t('work-experience.title')} />
+      <SectionHeader title={t('work_experience_title')} />
 
-      <SectionExperience
-        position={'left'}
-        role={t('work-experience.ok_role')}
-        company={t('work-experience.ok_company')}
-        date={t('work-experience.ok_date')}
-        description={t('work-experience.ok_description')}
-      ></SectionExperience>
-
-      <SectionExperience
-        position={'right'}
-        role={t('work-experience.ipd_role')}
-        company={t('work-experience.ipd_company')}
-        date={t('work-experience.ipd_date')}
-        description={t('work-experience.ipd_description')}
-      ></SectionExperience>
-
-      <SectionExperience
-        position={'left'}
-        role={t('work-experience.acc_role')}
-        company={t('work-experience.acc_company')}
-        date={t('work-experience.acc_date')}
-        description={t('work-experience.acc_description')}
-      ></SectionExperience>
-
-      <SectionExperience
-        position={'right'}
-        role={t('work-experience.tm_role')}
-        company={t('work-experience.tm_company')}
-        date={t('work-experience.tm_date')}
-        description={t('work-experience.tm_description')}
-      ></SectionExperience>
-
-      <SectionExperience
-        position={'left'}
-        role={t('work-experience.bb_role')}
-        company={t('work-experience.bb_company')}
-        date={t('work-experience.bb_date')}
-        description={t('work-experience.bb_description')}
-      ></SectionExperience>
+      {_.map(t('work_experience', { returnObjects: true }), item => {
+        return <SectionExperience item={item} />
+      })}
 
       <SectionFooter />
     </div>

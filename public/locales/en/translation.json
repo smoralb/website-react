@@ -27,27 +27,37 @@
         "phone": "+1 (617) 971-6693",
         "location": "Boston, MA"
     },
-    "work-experience": {
-        "title": "Experience",
-        "ok_role": "Android Developer",
-        "ok_company": "Openbank",
-        "ok_date": "November 2019 - Actualidad",
-        "ok_description": "Openbank customer application development",
-        "ipd_role": "Android Developer",
-        "ipd_company": "IphoneDroid",
-        "ipd_date": "November 2018 - November 2019",
-        "ipd_description": "Android application development in Kotlin, based on MVP and Clean Architecture. I use libraries such as: - RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, among others. - Implementation of Adobe Analytics library. - Agile work methodology based on Kanban and SCRUM. - Use of management tools such as Jira and documentation tools such as Confluence. - Version control tools such as HockeyApp and Fastlane.",
-        "acc_role": "Software Developer",
-        "acc_company": "Accenture",
-        "acc_date": "June 2018 - November 2018",
-        "acc_description": "Web application development for internal client management using technologies such as: - Angular 6, Bootstrap 4 and Typescript. - Work methodology based on SCRUM.",
-        "tm_role": "Android Developer",
-        "tm_company": "talentoMOBILE",
-        "tm_date": "March 2018 - June 2018",
-        "tm_description": "Developer of native Android applications for multinational companies in the banking and insurance sector following the MVP and DataBinding architectural pattern. Use of native Android libraries such as: - ConstraintLayout, RecyclerView and Volley, among others. Use of third-party libraries such as: - Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. Connection with APIS such as: - Google Maps API",
-        "bb_role": "Android Developer",
-        "bb_company": "Babel IS",
-        "bb_date": "March 2017 - March 2018",
-        "bb_description": "Android application developer following the principles of the Clean Architecture architectural pattern. Use of native Android libraries such as: - ConstraintLayout and RecyclerView Third party libraries such as: - Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife and okhttp Connection with APIS such as: - Google Maps API and Firebase."
-    }
+    "work_experience_title": "Experience",
+    "work_experience": [
+        {
+            "role": "Android Developer",
+            "company": "Openbank",
+            "date": "November 2019 - Actualidad",
+            "description": "Openbank customer application development"    
+        },
+        {
+            "role": "Android Developer",
+            "company": "IphoneDroid",
+            "date": "November 2018 - November 2019",
+            "description": "Android application development in Kotlin, based on MVP and Clean Architecture. I use libraries such as: - RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, among others. - Implementation of Adobe Analytics library. - Agile work methodology based on Kanban and SCRUM. - Use of management tools such as Jira and documentation tools such as Confluence. - Version control tools such as HockeyApp and Fastlane."    
+        },
+        {
+            "role": "Software Developer",
+            "company": "Accenture",
+            "date": "June 2018 - November 2018",
+            "description": "Web application development for internal client management using technologies such as: - Angular 6, Bootstrap 4 and Typescript. - Work methodology based on SCRUM."    
+        },
+        {
+            "role": "Android Developer",
+            "company": "talentoMOBILE",
+            "date": "March 2018 - June 2018",
+            "description": "Developer of native Android applications for multinational companies in the banking and insurance sector following the MVP and DataBinding architectural pattern. Use of native Android libraries such as: - ConstraintLayout, RecyclerView and Volley, among others. Use of third-party libraries such as: - Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. Connection with APIS such as: - Google Maps API"    
+        },
+        {
+            "role": "Android Developer",
+            "company": "Babel IS",
+            "date": "March 2017 - March 2018",
+            "description": "Android application developer following the principles of the Clean Architecture architectural pattern. Use of native Android libraries such as: - ConstraintLayout and RecyclerView Third party libraries such as: - Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife and okhttp Connection with APIS such as: - Google Maps API and Firebase."    
+        }
+    ]
 }
