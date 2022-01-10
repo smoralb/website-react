@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography'
 
 export default function SectionExperience (props) {
   return (
-    <Timeline position={props.item.position}>
+    <Timeline position={props.position}>
       <TimelineItem>
       <TimelineSeparator>
           <TimelineDot/>

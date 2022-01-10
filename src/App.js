@@ -31,11 +31,16 @@ export default function App () {
 
       <SectionHeader title={t('work_experience_title')} />
 
-      {_.map(t('work_experience', { returnObjects: true }), item => {
-        return <SectionExperience item={item} />
+      {_.map(t('work_experience', { returnObjects: true }), (item, index) => {
+        return <SectionExperience item={item} position={getPosition(index)} />
       })}
 
       <SectionFooter />
     </div>
   )
+}
+
+function getPosition (value) {
+  if (value % 2 == 0) return 'left'
+  else return 'right'
 }
