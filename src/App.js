@@ -6,11 +6,10 @@ import SectionExperience from './components/section-experience/sectionExperience
 import SectionFooter from './components/section-footer/sectionFooter'
 import SectionPageHeader from './components/section-page-header/sectionPageHeader'
 import { useTranslation } from 'react-i18next'
+import _ from 'lodash'
 
 export default function App () {
   const { t, i18n } = useTranslation()
-
-  var studies = t('studies', { returnObjects: true })
 
   return (
     <div className='App'>
@@ -18,9 +17,9 @@ export default function App () {
 
       <SectionHeader title={t('studies_title')} />
 
-      {studies.map(item => (
-        <SectionItem item={item} />
-      ))}
+      {_.map(t('studies', { returnObjects: true }), item => {
+        return <SectionItem item={item} />
+      })}
 
       <SectionContact
         title={t('contact.title')}
