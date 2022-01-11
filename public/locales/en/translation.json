@@ -1,63 +1,62 @@
 {
-    "studies_title": "Studies",
-    "studies": [
-        {
-            "title": "Software engineering bachelor's degree",
-            "college": "Technical University of Madrid",
-            "date": "2011- 2017",
-            "description": "Ability to use a systematic, disciplined and quantifiable approach to software development, operation, and maintenance, to establish and use SOLID engineering principles to obtain reliable software that works efficiently on real machines, as well as to estimate the costs of developments. All this assumes a thorough knowledge of computer programming, implementation, and planning of computer systems as well as the phases of the software life cycle, from a practical perspective and adapted to the social realities of our country."    
-        },
-        {
-            "title": "Android development",
-            "college": "Technical University of Madrid - Samsung Tech Institute",
-            "date": "200 hours - 2014",
-            "description": "Course focused for students interested in the development of applications for Android devices. This course addresses different topics related to the development of an application such as: Identification of the idea for the project Creation of a mock-up Analysis of UX/UI - Development (JAVA) Publication of the application in Play store"     
-        },
-        {
-            "title": "Front-End development with HTML5 & CSS3",
-            "college": "Technical University of Madrid - Samsung Tech Institute",
-            "date": "80 hours - 2016",
-            "description": "A course aimed at both new and experienced web developers and web designers to expand their skills to include upcoming web standards. Through hands-on labs and exercises, the fundamentals of creating web pages with current standards were learned. The course focuses on the HTML5 content layout language and cascading style sheets provided by CSS3. In addition, basic JavaScript concepts and the use of the Bootstrap library are introduced. Students will acquire, among others, skills that will allow them to: Understand the client-server architecture and the characteristics of web servers, considering the peculiarities of the associated clients. Know the HTML language to develop web pages (in all its versions), including text, images, and other multimedia content. To provide HTML documents with the capabilities provided by CSS, adapting to usability and accessibility criteria. Understand how to integrate the use of JavaScript"
-    
-        }
-    ],
-    "contact": {
-        "title": "Contact me",
-        "mail": "smoralber@gmail.com",
-        "phone": "+1 (617) 971-6693",
-        "location": "Boston, MA"
+  "studies_title": "Studies",
+  "studies": [
+    {
+      "title": "Software engineering bachelor's degree",
+      "college": "Technical University of Madrid",
+      "date": "2011- 2017",
+      "description": "Ability to use a systematic, disciplined and quantifiable approach to software development, operation, and maintenance, to establish and use SOLID engineering principles to obtain reliable software that works efficiently on real machines, as well as to estimate the costs of developments.\n \n  All this assuming a thorough knowledge of computer programming, implementation, and planning of computer systems as well as the phases of the software life cycle, from a practical perspective and adapted to the social realities of our country."
     },
-    "work_experience_title": "Experience",
-    "work_experience": [
-        {
-            "role": "Android Developer",
-            "company": "Openbank",
-            "date": "November 2019 - Actualidad",
-            "description": "Openbank customer application development"    
-        },
-        {
-            "role": "Android Developer",
-            "company": "IphoneDroid",
-            "date": "November 2018 - November 2019",
-            "description": "Android application development in Kotlin, based on MVP and Clean Architecture. I use libraries such as: - RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, among others. - Implementation of Adobe Analytics library. - Agile work methodology based on Kanban and SCRUM. - Use of management tools such as Jira and documentation tools such as Confluence. - Version control tools such as HockeyApp and Fastlane."    
-        },
-        {
-            "role": "Software Developer",
-            "company": "Accenture",
-            "date": "June 2018 - November 2018",
-            "description": "Web application development for internal client management using technologies such as: - Angular 6, Bootstrap 4 and Typescript. - Work methodology based on SCRUM."    
-        },
-        {
-            "role": "Android Developer",
-            "company": "talentoMOBILE",
-            "date": "March 2018 - June 2018",
-            "description": "Developer of native Android applications for multinational companies in the banking and insurance sector following the MVP and DataBinding architectural pattern. Use of native Android libraries such as: - ConstraintLayout, RecyclerView and Volley, among others. Use of third-party libraries such as: - Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. Connection with APIS such as: - Google Maps API"    
-        },
-        {
-            "role": "Android Developer",
-            "company": "Babel IS",
-            "date": "March 2017 - March 2018",
-            "description": "Android application developer following the principles of the Clean Architecture architectural pattern. Use of native Android libraries such as: - ConstraintLayout and RecyclerView Third party libraries such as: - Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife and okhttp Connection with APIS such as: - Google Maps API and Firebase."    
-        }
-    ]
+    {
+      "title": "Android development",
+      "college": "Technical University of Madrid - Samsung Tech Institute",
+      "date": "200 hours - 2014",
+      "description": "Course focused for students interested in the development of applications for Android devices. This course addresses different topics related to the development of an application such as: \n \n •  Identification of the idea for the project \n •  Creation of a mock-up Analysis of UX/UI \n •  Development (JAVA) \n •  Publication of the application in Play store"
+    },
+    {
+      "title": "Front-End development with HTML5 & CSS3",
+      "college": "Technical University of Madrid - Samsung Tech Institute",
+      "date": "80 hours - 2016",
+      "description": "A course aimed at both new and experienced web developers and web designers to expand their skills to include upcoming web standards. Through hands-on labs and exercises, the fundamentals of creating web pages with current standards were learned. \n The course focuses on the HTML5 content layout language and cascading style sheets provided by CSS3. \n In addition, basic JavaScript concepts and the use of the Bootstrap library are introduced. Students will acquire, among others, skills that will allow them to: \n \n •  Understand the client-server architecture and the characteristics of web servers, considering the peculiarities of the associated clients. \n •  Know the HTML language to develop web pages (in all its versions), including text, images, and other multimedia content. \n •  To provide HTML documents with the capabilities provided by CSS, adapting to usability and accessibility criteria. \n •  Understand how to integrate the use of JavaScript"
+    }
+  ],
+  "contact": {
+    "title": "Contact me",
+    "mail": "smoralber@gmail.com",
+    "phone": "+1 (617) 971-6693",
+    "location": "Boston, MA"
+  },
+  "work_experience_title": "Experience",
+  "work_experience": [
+    {
+      "role": "Android Developer",
+      "company": "Openbank",
+      "date": "November 2019 - Actualidad",
+      "description": "Openbank customer application development"
+    },
+    {
+      "role": "Android Developer",
+      "company": "IphoneDroid",
+      "date": "November 2018 - November 2019",
+      "description": "Android application development in Kotlin, based on MVP and Clean Architecture. I use libraries such as: \n \n •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, among others. \n •  Implementation of Adobe Analytics library. \n •  Agile work methodology based on Kanban and SCRUM. \n •  Use of management tools such as Jira and documentation tools such as Confluence. \n •  Version control tools such as HockeyApp and Fastlane."
+    },
+    {
+      "role": "Software Developer",
+      "company": "Accenture",
+      "date": "June 2018 - November 2018",
+      "description": "Web application development for internal client management using technologies such as:\n \n  •  Angular 6, Bootstrap 4 and Typescript.\n •  Work methodology based on SCRUM."
+    },
+    {
+      "role": "Android Developer",
+      "company": "talentoMOBILE",
+      "date": "March 2018 - June 2018",
+      "description": "Developer of native Android applications for multinational companies in the banking and insurance sector following the MVP and DataBinding architectural pattern. \n \n Use of native Android libraries such as: \n •  ConstraintLayout, RecyclerView and Volley, among others.  \n  \n Use of third-party libraries such as: \n •  Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. \n \n Connection with APIS such as: \n •  Google Maps API"
+    },
+    {
+      "role": "Android Developer",
+      "company": "Babel IS",
+      "date": "March 2017 - March 2018",
+      "description": "Android application developer following the principles of the Clean Architecture architectural pattern. \n  \n  Use of native Android libraries such as: \n •  ConstraintLayout and RecyclerView  \n  \n Third party libraries such as: \n •  Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife and okhttp. \n \n Connection with APIS such as: \n •  Google Maps API and Firebase."
+    }
+  ]
 }

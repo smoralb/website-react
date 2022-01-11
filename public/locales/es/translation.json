@@ -1,63 +1,62 @@
 {
-    "studies_title": "Estudios",
-    "studies": [
-        {
-            "title": "Grado Ingeniería de software",
-            "college": "Universidad Politécnica de Madrid",
-            "date": "2011- 2017",
-            "description": "Capacidad de utilizar un enfoque sistemático, disciplinado y cuantificable para el desarrollo, operación y mantenimiento del software, de establecer y utilizar principios sólidos de ingeniería para obtener software fiable que funcione eficientemente en máquinas reales, así como de estimar los costes de los desarrollos.<br/><br/>Todo ello supone un conocimiento profundo de la programación de ordenadores, la implantación y planificación de sistemas informáticos así como de las fases del ciclo de vida del software, desde una perspectiva práctica y adaptada a las realidades sociales de nuestro país."
-        },
-        {
-            "title": "Desarrollo Aplicaciones Android",
-            "college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
-            "date": "200 horas - 2014",
-            "description": "Curso enfocado para estudiantes interesados en el desarrollo de aplicaciones para dispositivos Android. En este curso se abordan diferentes temas relacionados con el desarrollo de un aplicaión como:<br/><br/>• Identificación de idea para el proyecto<br/>• Creación de un mock up<br/>• Análisis de UX/UI<br/>• Desarrollo (JAVA)<br/>• Publicación de la aplicación en Play store"
-        },
-        {
-            "title": "Desarrollo Front-End con HTML5 y CSS3",
-            "college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
-            "date": "80 horas - 2016",
-            "description": "Curso dirigido a desarrolladores/as y diseñadores/as web tanto nuevos como experimentados y ampliar sus habilidades para incluir los próximos estándares web. A través de laboratorios prácticos y ejercicios, se aprendieron los fundamentos de la creación de páginas web con las normas/estándares actuales. El curso se centra en el lenguaje de maquetación de contenidos HTML5 y en las hojas de estilo en cascada proporcionadas por CSS3. Adicionalmente se introducen conceptos básicos de JavaScript y el uso de la biblioteca Bootstrap. Los/as alumnos/as adquirirán, entre otras, destrezas que le permitirán:<br/><br/>• Entender la arquitectura cliente-servidor y las características de los servidores web, considerando las peculiaridades de los clientes asociados. <br/>• Conocer el lenguaje HTML para el desarrollo de páginas Web (en todas sus versiones), incluyendo textos, imágenes y otros contenidos multimedia.<br/>• Dotar a los documentos HTML de las capacidades proporcionadas por el CSS, adaptándose a criterios de usabilidad y accesibilidad. <br/>• Entender cómo integrar el uso del lenguaje JavaScript"
-    
-        }
-    ],
-    "contact": {
-        "title": "Contacto",
-        "mail": "smoralber@gmail.com",
-        "phone": "+34 656 987 824",
-        "location": "Madrid, España"
+  "studies_title": "Estudios",
+  "studies": [
+    {
+      "title": "Grado Ingeniería de software",
+      "college": "Universidad Politécnica de Madrid",
+      "date": "2011- 2017",
+      "description": "Capacidad de utilizar un enfoque sistemático, disciplinado y cuantificable para el desarrollo, operación y mantenimiento del software, de establecer y utilizar principios sólidos de ingeniería para obtener software fiable que funcione eficientemente en máquinas reales, así como de estimar los costes de los desarrollos.\n \n  Todo ello supone un conocimiento profundo de la programación de ordenadores, la implantación y planificación de sistemas informáticos así como de las fases del ciclo de vida del software, desde una perspectiva práctica y adaptada a las realidades sociales de nuestro país."
     },
-    "work_experience_title": "Experiencia",
-    "work_experience": [
-        {
-            "role": "Desarrollador Android",
-            "company": "Openbank",
-            "date": "Noviembre 2019 - Actualidad",
-            "description": "Desarrollo de la aplicación de Openbank para clientes"    
-        },
-        {
-            "role": "Desarrollador Android",
-            "company": "IphoneDroid",
-            "date": "Noviembre 2018 - Noviembre 2019",
-            "description": "Desarrollo de aplicaciones Android en Kotlin, basándose en una arquitectura MVP y Clean Architecture. Uso librerías como: •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, entre otras. •  Implementación de librería de Analíticas de Adobe. •  Metodología de trabajo agile basado en kanban y SCRUM. •  Uso de herramientas de gestión como Jira y de documentación como Confluence. • Herramientas de control versiones como HockeyApp y Fastlane."    
-        },
-        {
-            "role": "Desarrollador de Software",
-            "company": "Accenture",
-            "date": "Junio 2018 - Noviembre 2018",
-            "description": "Desarrollo de aplicación web para gestión interna del cliente utilizando tecnologías como: •  Angular 6, Bootstrap 4 y Typescript. • Metodología de trabajo basada en SCRUM."    
-        },
-        {
-            "role": "Desarrollador Android",
-            "company": "talentoMOBILE",
-            "date": "Marzo 2018 - Junio 20188",
-            "description": "Desarrollador de aplicaciones nativas Android para empresas multinacionales del sector bancario y aseguradoras siguiendo el patrón arquitectónico MVP y DataBinding. Uso de librerías nativas de Android como: • ConstraintLayout, RecyclerView y Volley, entre otras. Uso de librerías de terceros como: • Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. Conexión con APIS como: • Google Maps API"    
-        },
-        {
-            "role": "Desarrollador Android",
-            "company": "Babel SI",
-            "date": "Marzo 2017 - Marzo 2018",
-            "description": "Desarrollador aplicaciones Android siguiendo los principios del patrón arquitectónico Clean Architecture.Uso de librerías nativas de Android como: • ConstraintLayout y RecyclerView</span><br/>Librerías de terceros como pueden ser: • Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife y okhttp Conexión con APIS como: • Google Maps API y Firebase."    
-        }
-    ]
+    {
+      "title": "Desarrollo Aplicaciones Android",
+      "college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
+      "date": "200 horas - 2014",
+      "description": "Curso enfocado para estudiantes interesados en el desarrollo de aplicaciones para dispositivos Android. En este curso se abordan diferentes temas relacionados con el desarrollo de un aplicaión como:\n \n  • Identificación de idea para el proyecto \n• Creación de un mock up \n• Análisis de UX/UI \n• Desarrollo (JAVA)<br/>• Publicación de la aplicación en Play store"
+    },
+    {
+      "title": "Desarrollo Front-End con HTML5 y CSS3",
+      "college": "Universidad Politécnica de Madrid - Samsung Tech Institute",
+      "date": "80 horas - 2016",
+      "description": "Curso dirigido a desarrolladores/as y diseñadores/as web tanto nuevos como experimentados y ampliar sus habilidades para incluir los próximos estándares web. A través de laboratorios prácticos y ejercicios, se aprendieron los fundamentos de la creación de páginas web con las normas/estándares actuales. \n El curso se centra en el lenguaje de maquetación de contenidos HTML5 y en las hojas de estilo en cascada proporcionadas por CSS3. \n Adicionalmente se introducen conceptos básicos de JavaScript y el uso de la biblioteca Bootstrap. Los/as alumnos/as adquirirán, entre otras, destrezas que le permitirán: \n \n • Entender la arquitectura cliente-servidor y las características de los servidores web, considerando las peculiaridades de los clientes asociados. \n • Conocer el lenguaje HTML para el desarrollo de páginas Web (en todas sus versiones), incluyendo textos, imágenes y otros contenidos multimedia. \n • Dotar a los documentos HTML de las capacidades proporcionadas por el CSS, adaptándose a criterios de usabilidad y accesibilidad.  \n • Entender cómo integrar el uso del lenguaje JavaScript"
+    }
+  ],
+  "contact": {
+    "title": "Contacto",
+    "mail": "smoralber@gmail.com",
+    "phone": "+34 656 987 824",
+    "location": "Madrid, España"
+  },
+  "work_experience_title": "Experiencia",
+  "work_experience": [
+    {
+      "role": "Desarrollador Android",
+      "company": "Openbank",
+      "date": "Noviembre 2019 - Actualidad",
+      "description": "Desarrollo de la aplicación de Openbank para clientes"
+    },
+    {
+      "role": "Desarrollador Android",
+      "company": "IphoneDroid",
+      "date": "Noviembre 2018 - Noviembre 2019",
+      "description": "Desarrollo de aplicaciones Android en Kotlin, basándose en una arquitectura MVP y Clean Architecture. Uso librerías como: \n  \n  •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, entre otras. \n  •  Implementación de librería de Analíticas de Adobe. \n  •  Metodología de trabajo agile basado en kanban y SCRUM. \n  •  Uso de herramientas de gestión como Jira y de documentación como Confluence. \n  • Herramientas de control versiones como HockeyApp y Fastlane."
+    },
+    {
+      "role": "Desarrollador de Software",
+      "company": "Accenture",
+      "date": "Junio 2018 - Noviembre 2018",
+      "description": "Desarrollo de aplicación web para gestión interna del cliente utilizando tecnologías como: \n  \n  •  Angular 6, Bootstrap 4 y Typescript. \n  • Metodología de trabajo basada en SCRUM."
+    },
+    {
+      "role": "Desarrollador Android",
+      "company": "talentoMOBILE",
+      "date": "Marzo 2018 - Junio 20188",
+      "description": "Desarrollador de aplicaciones nativas Android para empresas multinacionales del sector bancario y aseguradoras siguiendo el patrón arquitectónico MVP y DataBinding.  \n  \n Uso de librerías nativas de Android como: \n • ConstraintLayout, RecyclerView y Volley, entre otras.  \n  \n Uso de librerías de terceros como: \n  • Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2.  \n  \n Conexión con APIS como:  \n • Google Maps API"
+    },
+    {
+      "role": "Desarrollador Android",
+      "company": "Babel SI",
+      "date": "Marzo 2017 - Marzo 2018",
+      "description": "Desarrollador aplicaciones Android siguiendo los principios del patrón arquitectónico Clean Architecture. \n  \n Uso de librerías nativas de Android como: \n  • ConstraintLayout y RecyclerView \n  \n Librerías de terceros como pueden ser: \n  • Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife y okhttp  \n  \n Conexión con APIS como: \n  • Google Maps API y Firebase."
+    }
+  ]
 }
