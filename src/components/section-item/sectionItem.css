@@ -1,28 +1,29 @@
 .section-container {
-    display: grid;
-    column-gap: 5%;
-    grid-template-columns: 1fr 2fr;
-    margin-left: 20px;
-    margin-right: 60px;
+  display: grid;
+  column-gap: 5%;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 60px;
 }
 
 .section-info {
-    text-align: center;
+  text-align: center;
 }
 
 .item-title {
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .item-subtitle {
-    margin: auto auto;
-    font-size: 14px;
+  margin: auto auto;
+  font-size: 14px;
 }
 
 .section-description {
-    grid-column-start: 2;
-    font-size: 14px;
-    text-align: justify;
+  grid-column-start: 2;
+  font-size: 14px;
+  text-align: justify;
 }
