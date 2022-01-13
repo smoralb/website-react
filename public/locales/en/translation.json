@@ -32,31 +32,41 @@
       "role": "Android Developer",
       "company": "Openbank",
       "date": "November 2019 - Actualidad",
-      "description": "Openbank customer application development"
+      "description": "Openbank customer application development",
+      "logo": "images/logo_openbank.png",
+      "alt": "Openbank"
     },
     {
       "role": "Android Developer",
       "company": "IphoneDroid",
       "date": "November 2018 - November 2019",
-      "description": "Android application development in Kotlin, based on MVP and Clean Architecture. I use libraries such as: \n \n •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, among others. \n •  Implementation of Adobe Analytics library. \n •  Agile work methodology based on Kanban and SCRUM. \n •  Use of management tools such as Jira and documentation tools such as Confluence. \n •  Version control tools such as HockeyApp and Fastlane."
+      "description": "Android application development in Kotlin, based on MVP and Clean Architecture. I use libraries such as: \n \n •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, among others. \n •  Implementation of Adobe Analytics library. \n •  Agile work methodology based on Kanban and SCRUM. \n •  Use of management tools such as Jira and documentation tools such as Confluence. \n •  Version control tools such as HockeyApp and Fastlane.",
+      "logo": "images/logo_ipd.png",
+      "alt": "Openbank"
     },
     {
       "role": "Software Developer",
       "company": "Accenture",
       "date": "June 2018 - November 2018",
-      "description": "Web application development for internal client management using technologies such as:\n \n  •  Angular 6, Bootstrap 4 and Typescript.\n •  Work methodology based on SCRUM."
+      "description": "Web application development for internal client management using technologies such as:\n \n  •  Angular 6, Bootstrap 4 and Typescript.\n •  Work methodology based on SCRUM.",
+      "logo": "images/logo_accenture.png",
+      "alt": "Openbank"
     },
     {
       "role": "Android Developer",
       "company": "talentoMOBILE",
       "date": "March 2018 - June 2018",
-      "description": "Developer of native Android applications for multinational companies in the banking and insurance sector following the MVP and DataBinding architectural pattern. \n \n Use of native Android libraries such as: \n •  ConstraintLayout, RecyclerView and Volley, among others.  \n  \n Use of third-party libraries such as: \n •  Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. \n \n Connection with APIS such as: \n •  Google Maps API"
+      "description": "Developer of native Android applications for multinational companies in the banking and insurance sector following the MVP and DataBinding architectural pattern. \n \n Use of native Android libraries such as: \n •  ConstraintLayout, RecyclerView and Volley, among others.  \n  \n Use of third-party libraries such as: \n •  Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2. \n \n Connection with APIS such as: \n •  Google Maps API",
+      "logo": "images/logo_talento.png",
+      "alt": "Openbank"
     },
     {
       "role": "Android Developer",
       "company": "Babel IS",
       "date": "March 2017 - March 2018",
-      "description": "Android application developer following the principles of the Clean Architecture architectural pattern. \n  \n  Use of native Android libraries such as: \n •  ConstraintLayout and RecyclerView  \n  \n Third party libraries such as: \n •  Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife and okhttp. \n \n Connection with APIS such as: \n •  Google Maps API and Firebase."
+      "description": "Android application developer following the principles of the Clean Architecture architectural pattern. \n  \n  Use of native Android libraries such as: \n •  ConstraintLayout and RecyclerView  \n  \n Third party libraries such as: \n •  Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife and okhttp. \n \n Connection with APIS such as: \n •  Google Maps API and Firebase.",
+      "logo": "images/logo_babel.png",
+      "alt": "Openbank"
     }
   ]
 }
