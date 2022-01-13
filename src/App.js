@@ -1,36 +1,35 @@
-import './App.css'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+
 import SectionHeader from './components/section-header/sectionHeader'
 import SectionItem from './components/section-item/sectionItem'
 import SectionContact from './components/section-contact/sectionContact'
 import SectionExperience from './components/section-experience/sectionExperience'
 import SectionFooter from './components/section-footer/sectionFooter'
-import { useTranslation } from 'react-i18next'
+import SectionPageHeader from './components/section-page-header/sectionPageHeader'
+import './App.css'
 
 export default function App () {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
+
+  const studies = t('studies', { returnObjects: true })
+  const work_experience = t('work_experience', { returnObjects: true })
 
   return (
-    <body>
-      <div className='App' />
-      <SectionHeader title={t('studies.title')} />
-      <SectionItem
-        title={t('studies.degree_title')}
-        college={t('studies.degree_college')}
-        date={t('studies.degree_date')}
-        description={t('studies.degree_description')}
-      />
-      <SectionItem
-        title={t('studies.course_android_title')}
-        college={t('studies.course_android_college')}
-        date={t('studies.course_android_date')}
-        description={t('studies.course_android_description')}
-      />
-      <SectionItem
-        title={t('studies.course_web_title')}
-        college={t('studies.course_web_college')}
-        date={t('studies.course_web_date')}
-        description={t('studies.course_web_description')}
-      />
+    <div className='App'>
+      <SectionPageHeader />
+
+      <SectionHeader title={t('studies_title')} />
+
+      {studies &&
+        studies.length > 0 &&
+        studies.map(item => {
+          return (
+            <React.Fragment key={item.title}>
+              <SectionItem item={item} />
+            </React.Fragment>
+          )
+        })}
 
       <SectionContact
         title={t('contact.title')}
@@ -39,49 +38,25 @@ export default function App () {
         phone={t('contact.phone')}
         image={'images/portrait-mobile.jpeg'}
       />
-      <SectionHeader title={t('work-experience.title')} />
-      
-      <SectionExperience
-        position={'left'}
-        role={t('work-experience.ok_role')}
-        company={t('work-experience.ok_company')}
-        date={t('work-experience.ok_date')}
-        description={t('work-experience.ok_description')}
-      ></SectionExperience>
 
-      <SectionExperience
-        position={'right'}
-        role={t('work-experience.ipd_role')}
-        company={t('work-experience.ipd_company')}
-        date={t('work-experience.ipd_date')}
-        description={t('work-experience.ipd_description')}
-      ></SectionExperience>
+      <SectionHeader title={t('work_experience_title')} />
 
-      <SectionExperience
-        position={'left'}
-        role={t('work-experience.acc_role')}
-        company={t('work-experience.acc_company')}
-        date={t('work-experience.acc_date')}
-        description={t('work-experience.acc_description')}
-      ></SectionExperience>
+      {work_experience &&
+        work_experience.length > 0 &&
+        work_experience.map((item, index) => {
+          return (
+            <React.Fragment key={item.company}>
+              <SectionExperience item={item} position={getPosition(index)} />
+            </React.Fragment>
+          )
+        })}
 
-      <SectionExperience
-        position={'right'}
-        role={t('work-experience.tm_role')}
-        company={t('work-experience.tm_company')}
-        date={t('work-experience.tm_date')}
-        description={t('work-experience.tm_description')}
-      ></SectionExperience>
-
-      <SectionExperience
-        position={'left'}
-        role={t('work-experience.bb_role')}
-        company={t('work-experience.bb_company')}
-        date={t('work-experience.bb_date')}
-        description={t('work-experience.bb_description')}
-      ></SectionExperience>
-
-      <SectionFooter/>
-    </body>
+      <SectionFooter />
+    </div>
   )
+}
+
+function getPosition (value) {
+  if (value % 2 == 0) return 'left'
+  else return 'right'
 }

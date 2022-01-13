@@ -1,7 +1,4 @@
-Frameworks: 
-    - React JS
-    - i18N
-    - Material UI for React https://mui.com/
+Frameworks: - React JS - i18N - Material UI for React https://mui.com/
 
 #i18N
 
@@ -23,7 +20,7 @@ For easier management of the translations I have installed the library i18next-h
         const DETECTION_OPTIONS = {
             order: ['navigator']
         };
-        
+
         i18n
         .use(Backend) -> Easier access to translations.
         .use(initReactI18next) -> Initialize i18next library.
@@ -63,7 +60,10 @@ For easier management of the translations I have installed the library i18next-h
             )
         }
 
+#FUTURE WORK
+
+- Create own TimeLine component.
+
 #Links:
 
 i18n -> https://codetain.com/blog/how-to-translate-react-application-with-react-i18next-part-2
-

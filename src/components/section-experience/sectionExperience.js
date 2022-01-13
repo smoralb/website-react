@@ -6,22 +6,23 @@ import TimelineConnector from '@mui/lab/TimelineConnector'
 import TimelineContent from '@mui/lab/TimelineContent'
 import TimelineDot from '@mui/lab/TimelineDot'
 import Typography from '@mui/material/Typography'
+import './sectionExperience.css'
 
 export default function SectionExperience (props) {
   return (
     <Timeline position={props.position}>
       <TimelineItem>
-      <TimelineSeparator>
-          <TimelineDot/>
+        <TimelineSeparator>
+          <TimelineDot variant='outlined' color='info' />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography variant='h6' component='span'>
-            {props.role}
+          <Typography variant='h6'>{props.item.role}</Typography>
+          <Typography>{props.item.company}</Typography>
+          <Typography variant='h7'>{props.item.date}</Typography>
+          <Typography className='description'>
+            {props.item.description}
           </Typography>
-          <Typography>{props.company}</Typography>
-          <Typography>{props.date}</Typography>
-          <Typography>{props.description}</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
