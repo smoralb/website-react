@@ -9,8 +9,9 @@
   gap: 5%;
   grid-template-areas:
     "image title title title"
+    "image location-logo mail-logo phone-logo"
     "image location mail phone";
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -29,12 +30,36 @@
   grid-area: location;
 }
 
+.location-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  fill: white;
+  grid-area: location-logo;
+}
+
 .mail {
   grid-area: mail;
 }
 
+.mail-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  fill: white;
+  grid-area: mail-logo;
+}
+
 .phone {
   grid-area: phone;
+}
+
+.phone-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  fill: white;
+  grid-area: phone-logo;
 }
 
 @media only screen and (min-width: 1024px) {
