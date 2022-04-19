@@ -63,6 +63,7 @@ For easier management of the translations I have installed the library i18next-h
 #FUTURE WORK
 
 - Create own TimeLine component.
+- Add Google Analytics.
 
 #Links:
 

@@ -33,8 +33,11 @@ export default function App () {
 
       <SectionContact
         title={t('contact.title')}
+        mailLogo={'images/email-logo.svg'}
         mail={t('contact.mail')}
+        locationLogo={'images/location-logo.svg'}
         location={t('contact.location')}
+        phoneLogo={'images/phone-logo.svg'}
         phone={t('contact.phone')}
         image={'images/portrait-mobile.jpeg'}
       />

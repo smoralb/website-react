@@ -1,17 +1,58 @@
 .container {
   display: grid;
+  align-items: center;
   color: white;
   background-color: #22303e;
   padding: 40px;
   margin-top: 40px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  column-width: 100px;
   gap: 5%;
-  grid-template-areas:
-    "image title title title"
-    "image location mail phone";
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
+}
+
+@media (min-width: 1220px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "image title title title"
+      "image location-logo mail-logo phone-logo"
+      "image location mail phone";
+  }
+}
+
+@media (max-width: 1220px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "title title title"
+      "location-logo mail-logo phone-logo"
+      "location mail phone";
+  }
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+    row-gap: 1%;
+    grid-template-areas:
+      "title"
+      "location"
+      "mail"
+      "phone";
+  }
+  .location-logo {
+    display: none;
+  }
+  .phone-logo {
+    display: none;
+  }
+  .mail-logo {
+    display: none;
+  }
 }
 
 .title {
@@ -29,25 +70,43 @@
   grid-area: location;
 }
 
+.location-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  fill: white;
+  grid-area: location-logo;
+}
+
 .mail {
   grid-area: mail;
+}
+
+.mail-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  fill: white;
+  grid-area: mail-logo;
 }
 
 .phone {
   grid-area: phone;
 }
 
-@media only screen and (min-width: 1024px) {
+.phone-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+  fill: white;
+  grid-area: phone-logo;
+}
+
+@media (min-width: 1220px) {
   .image {
     display: block;
     height: 500px;
     width: 500px;
     border-radius: 10%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .image {
-    display: none;
   }
 }
