@@ -1,19 +1,30 @@
 .page-header {
-    height:100vh;
-    background-repeat: no-repeat ;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
+  color: white;
+  font-family: "RousseauFont";
+  text-shadow: 2px 2px black;
 }
 
 @media only screen and (max-width: 1024px) {
   .page-header {
-    background-image: url('../../../public/images/portrait-mobile.jpeg');
+    background-image: url("../../../public/images/portrait-mobile.jpeg");
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .page-header {
-    background-image: url('../../../public/images/bckbrooklinbridge.jpg');
+    background-image: url("../../../public/images/bckbrooklinbridge.jpg");
   }
 }
