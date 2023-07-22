@@ -30,8 +30,14 @@
   "work_experience": [
     {
       "role": "Desarrollador Android",
+      "company": "Yaencontre",
+      "date": "Noviembre 2022 - Actualidad",
+      "description": "Desarrollo de la aplicación de Yaencontre"
+    },
+    {
+      "role": "Desarrollador Android",
       "company": "Openbank",
-      "date": "Noviembre 2019 - Actualidad",
+      "date": "Noviembre 2019 - Octubre 2021",
       "description": "Desarrollo de la aplicación de Openbank para clientes"
     },
     {

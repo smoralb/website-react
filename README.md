@@ -60,6 +60,8 @@ For easier management of the translations I have installed the library i18next-h
             )
         }
 
+Also, to run the app in new terminal it required to install mui
+
 #FUTURE WORK
 
 - Create own TimeLine component.
